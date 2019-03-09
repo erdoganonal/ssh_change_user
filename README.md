@@ -12,8 +12,8 @@ Example usages:
 
     result = ssh.exec_command('some_command')
 ```
-
 Most Common Attributes:
+```
     __init__:
         hostname: hostname or IP address
         username: username to connect as
@@ -44,7 +44,8 @@ Most Common Attributes:
                                 migth be used instead.
         -recevice_buffer:       The maximum amount of data to be received
                                     at once.
-                                
+
+```                     
 More Examples:
 ```
 ssh = CustomSSH(host, username, password)
